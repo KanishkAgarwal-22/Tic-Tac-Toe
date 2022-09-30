@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(73, 1, 107);
+    margin: 5vh auto;
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+}
+
+.box {
+    border: 1px solid #fff;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgb(67, 12, 117);
+}
+
+#reset, .announcer {
+    padding: 1vh;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #000;
+    font-weight: bold;
+}
